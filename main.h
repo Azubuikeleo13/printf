@@ -49,6 +49,8 @@ int handle_print(const char *fmt, int *i,
 
 /****************** FUNCTIONS ******************/
 
+int _putchar(char c);
+
 /* Funtions to print chars and strings */
 
 int print_char(va_list types, char buffer[],
